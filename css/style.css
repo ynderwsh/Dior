@@ -71,7 +71,7 @@ body{
 }
 
 .top{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .top-slide{
@@ -111,13 +111,16 @@ body{
 }
 
 .top-slide__btn{
-    color: #7449bb;
+    margin-left: auto;
+}
+
+.button{
+ color: #7449bb;
     text-transform: uppercase;
     font-weight: 700;
     padding: 21px 55px;
     border: 1px solid  #7449bb;
     display: inline-block;
-    margin-left: auto;
     transition: all .3s ease;
 }
 
@@ -155,4 +158,63 @@ body{
     padding-top: 50px;
 }
 
+
+.about{
+ margin-bottom: 150px;
+ overflow: hidden;
+}
+
+.about__inner{  
+    padding-left: 200px;
+}
+
+.about__title{
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    max-width: 185px;
+    text-transform: uppercase;
+    line-height: 1.34;
+    margin-bottom: 20px;
+}
+
+
+.about__textbox{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.about__text{
+    flex-basis: 387px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.about__text p{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.about__text--bold{
+    font-weight: 700;
+}
+
+
+.about__item-title{
+    margin-bottom: 20px;
+}
+
+.about__slider{
+    width: 1800px;
+    padding-left: 200px;
+    margin-left: -200px;
+    padding-bottom: 20px;
+}
+
+.about__arrow{
+    margin-left: -200px;
+    padding-top: 50px;
+}
 
